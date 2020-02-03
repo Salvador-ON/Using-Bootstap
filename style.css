@@ -1,0 +1,52 @@
+body{
+  min-width: 320px;
+}
+
+header {
+  background: red;
+  height: 50px;
+}
+
+.logo-nw {
+  width: 120px;
+}
+
+.menu-display {
+  /* background: green; */
+}
+
+.dropdown-menu {
+  margin-left: -150px;
+  margin-top: 15px;
+}
+
+#subscribe {
+  color: red;
+}
+
+#sign-in,
+#subscribe {
+  font-size: 11px !important;
+}
+
+.navbar1-link {
+  color:black;
+  font-weight: bold;
+  font-size: 19px;
+  box-sizing: border-box;
+  text-align: center !important;
+}
+
+.navbar1-item {
+  border-right: 1px solid gray;
+} 
+
+#form-s {
+  width: 10% !important;
+  padding-left: 5px;
+}
+
+#navbar-cont {
+  width: 90% !important;
+  margin-bottom: 0 !important;
+}
