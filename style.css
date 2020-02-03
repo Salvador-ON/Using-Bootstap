@@ -1,4 +1,4 @@
-body{
+body {
   min-width: 320px;
 }
 
@@ -30,7 +30,7 @@ header {
 }
 
 .navbar1-link {
-  color:black;
+  color: black;
   font-weight: bold;
   font-size: 19px;
   box-sizing: border-box;
@@ -38,8 +38,8 @@ header {
 }
 
 .navbar1-item {
-  border-right: 1px solid gray;
-} 
+  border-right: 1px solid lightgray;
+}
 
 #form-s {
   width: 10% !important;
@@ -49,4 +49,26 @@ header {
 #navbar-cont {
   width: 90% !important;
   margin-bottom: 0 !important;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  body {
+    min-width: 768px;
+    max-width: 991px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  body {
+    min-width: 992px;
+    max-width: 100%;
+  }
+
+  .logo-nw-big {
+    width: 420px;
+  }
+
+  header {
+    height: 80px;
+  }
 }
