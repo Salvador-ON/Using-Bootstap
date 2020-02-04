@@ -52,6 +52,25 @@ header {
   margin-bottom: 0 !important;
 }
 
+.autors {
+  width: 63px;
+  height: 63px;
+  box-sizing: border-box;
+}
+
+.pic-mores {
+  width: 135px;
+}
+
+.pic-cont-mores {
+  float: left;
+  width: 135px;
+}
+
+.title-mores {
+  /* margin-left: 145px; */
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   body {
     min-width: 768px;
@@ -71,5 +90,10 @@ header {
 
   header {
     height: 80px;
+  }
+
+  .container-fluid {
+    padding-left: 30px;
+    padding-right: 30px;
   }
 }
