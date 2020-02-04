@@ -88,7 +88,7 @@ header {
   text-decoration: none;
 }
 
-.thumb-art2{
+.thumb-art2 {
   object-fit: cover;
   object-position: 50% 0;
   width: 300px;
@@ -98,7 +98,6 @@ header {
   text-decoration: underline;
   text-decoration-color: rgb(233, 3, 91);
 }
-
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   body {
