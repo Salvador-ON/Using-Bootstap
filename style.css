@@ -156,7 +156,7 @@ header {
     display: none;
   }
 
-  .pic-contwk{
+  .pic-contwk {
     background: url(https://d.newsweek.com/en/full/1555347/newsweek-conversations-paul-wesley.jpg) -240px 0;
     background-size: cover;
     width: 40%;
@@ -202,11 +202,12 @@ header {
     display: none;
   }
 
-  .pic-contwk{
+  .pic-contwk {
     background: url(https://d.newsweek.com/en/full/1555347/newsweek-conversations-paul-wesley.jpg) -230px 0;
     background-size: cover;
     width: 40%;
   }
+
   .left-text {
     background: black;
     width: 60%;
@@ -247,7 +248,7 @@ header {
     display: none;
   }
 
-  .pic-contwk{
+  .pic-contwk {
     background: url(https://d.newsweek.com/en/full/1555347/newsweek-conversations-paul-wesley.jpg) -130px 0;
     background-size: cover;
     width: 40%;
@@ -257,5 +258,4 @@ header {
     background: black;
     width: 60%;
   }
-
 }
