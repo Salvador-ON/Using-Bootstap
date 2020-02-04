@@ -14,20 +14,21 @@
 <body>
   <header class="d-flex flex-row justify-content-between align-items-center">
 
-      <h6 class="ml-3 d-none d-lg-block align-self-end mb-2 text-white">Mon, Feb 03, 2020</h6>
-    
-      <img src="media/logo-nw.png" alt="logo news" class="logo-nw ml-2 d-lg-none">
-    
-      <img src="media/logo-nw.png" alt="logo news" class="logo-nw-big d-none d-lg-block">
-    
+    <h6 class="ml-3 d-none d-lg-block align-self-end mb-2 text-white">Mon, Feb 03, 2020</h6>
+
+    <img src="media/logo-nw.png" alt="logo news" class="logo-nw ml-2 d-lg-none">
+
+    <img src="media/logo-nw.png" alt="logo news" class="logo-nw-big d-none d-lg-block">
+
 
     <div class="cont2 d-flex flex-row align-items-center align-self-lg-end mb-lg-2">
 
       <a id="sign-in" class="text-white text-decoration-none mr-1 font-weight-bold" href="#">SIGN IN</a>
-      <a id="subscribe" class="text-decoration-none bg-white px-lg-1 py-1 font-weight-bold" href="#">SUBSCRIBE  <i class="fas fa-angle-right d-none d-lg-inline-block"></i></a>
+      <a id="subscribe" class="text-decoration-none bg-white px-lg-1 py-1 font-weight-bold" href="#">SUBSCRIBE <i
+          class="fas fa-angle-right d-none d-lg-inline-block"></i></a>
       <div class="dropdown">
-        <button class="btn2 btn btn-secondary bg-transparent shadow-none border-0 d-lg-none" type="button" id="dropdownMenuButton" data-toggle="dropdown"
-          aria-haspopup="true" aria-expanded="false">
+        <button class="btn2 btn btn-secondary bg-transparent shadow-none border-0 d-lg-none" type="button"
+          id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           <i class="du fas fa-bars fa-2x"></i>
         </button>
         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -67,455 +68,854 @@
       </div>
     </div>
   </header>
-  
+
   <nav class="d-none d-lg-flex justify-content-around align-items-center border-bottom">
 
-      <ul id="navbar-cont" class="d-flex flex-row text-decoration-none list-unstyled justify-content-between ml-1 mr-1 flex-grow-1" >
-        <li class="navbar1-item flex-grow-1 "><a class="navbar1-link d-inline-block w-100" href="#">U.S.</a>
-        </li>
-        <li class="navbar1-item flex-grow-1"><a class="navbar1-link d-inline-block w-100" href="#">World</a>
-        </li>
-        <li class="navbar1-item flex-grow-1"><a class="navbar1-link d-inline-block w-100" href="#">Business</a>
-        </li>
-        <li class="navbar1-item flex-grow-1"><a href="#" class="navbar1-link d-inline-block w-100 ">Tech & Science</a>
-        </li >
-        <li class="navbar1-item flex-grow-1"><a href="#" class="navbar1-link d-inline-block w-100 ">Culture</a>
-        </li>
-        <li class="navbar1-item flex-grow-1"> <a href="#" class="navbar1-link d-inline-block w-100 ">Newsgeek</a>
-        </li>
-        <li class="navbar1-item flex-grow-1"> <a href="#" class="navbar1-link d-inline-block w-100 ">Sports</a>
-        </li>
-        <li class="navbar1-item flex-grow-1"> <a href="#" class="navbar1-link d-inline-block w-100 ">Health</a>
-        </li>
-        <li class="navbar1-item flex-grow-1"> <a href="#" class="navbar1-link d-inline-block w-100 ">The Debate</a>
-        </li>
-        <li class="navbar1-item flex-grow-1"> <a href="#" class="navbar1-link d-inline-block w-100 ">Vantage</a>
-        </li>
-        <li class="navbar1-item flex-grow-1"> <a href="#" class="navbar1-link d-inline-block w-100 ">Weather</a>
-        </li>
-      </ul>
+    <ul id="navbar-cont"
+      class="d-flex flex-row text-decoration-none list-unstyled justify-content-between ml-1 mr-1 flex-grow-1">
+      <li class="navbar1-item flex-grow-1 "><a class="navbar1-link d-inline-block w-100" href="#">U.S.</a>
+      </li>
+      <li class="navbar1-item flex-grow-1"><a class="navbar1-link d-inline-block w-100" href="#">World</a>
+      </li>
+      <li class="navbar1-item flex-grow-1"><a class="navbar1-link d-inline-block w-100" href="#">Business</a>
+      </li>
+      <li class="navbar1-item flex-grow-1"><a href="#" class="navbar1-link d-inline-block w-100 ">Tech & Science</a>
+      </li>
+      <li class="navbar1-item flex-grow-1"><a href="#" class="navbar1-link d-inline-block w-100 ">Culture</a>
+      </li>
+      <li class="navbar1-item flex-grow-1"> <a href="#" class="navbar1-link d-inline-block w-100 ">Newsgeek</a>
+      </li>
+      <li class="navbar1-item flex-grow-1"> <a href="#" class="navbar1-link d-inline-block w-100 ">Sports</a>
+      </li>
+      <li class="navbar1-item flex-grow-1"> <a href="#" class="navbar1-link d-inline-block w-100 ">Health</a>
+      </li>
+      <li class="navbar1-item flex-grow-1"> <a href="#" class="navbar1-link d-inline-block w-100 ">The Debate</a>
+      </li>
+      <li class="navbar1-item flex-grow-1"> <a href="#" class="navbar1-link d-inline-block w-100 ">Vantage</a>
+      </li>
+      <li class="navbar1-item flex-grow-1"> <a href="#" class="navbar1-link d-inline-block w-100 ">Weather</a>
+      </li>
+    </ul>
 
-      <form class="d-inline" id="form-s">
-        <input class="form-control searchf w-100" type="search" placeholder="Search" aria-label="Search">
-      </form>
- 
+    <form class="d-inline" id="form-s">
+      <input class="form-control searchf w-100" type="search" placeholder="Search" aria-label="Search">
+    </form>
+
   </nav>
 
   <main class="container-fluid mt-3">
     <div class="row d-flex">
 
       <!-- featured stories -->
-      <div class="order-2 order-md-1 order-lg-1 order-xl-1 col-12 col-lg-4 col-md-6 mb-4">
-        <h5 class="title-featured" >FEATURED STORIES</h5>
+      <section class="order-2 order-md-1 order-lg-1 order-xl-1 col-12 col-lg-4 col-md-6 mb-4">
+        <h5 class="title-featured">FEATURED STORIES</h5>
 
         <div class="row">
-          <div class="col-12">
-           <a href="#"> <img class="img-fluid" src="https://d.newsweek.com/en/full/1564751/coronavirus-cases-deaths-countries.jpg?w=397&h=265&q=90&f=1a976b3e110f18e73ef65202ba06dcb1" alt="news1"></a>
+          <article class="col-12">
+            <a href="#"> <img class="img-fluid"
+                src="https://d.newsweek.com/en/full/1564751/coronavirus-cases-deaths-countries.jpg?w=397&h=265&q=90&f=1a976b3e110f18e73ef65202ba06dcb1"
+                alt="news1"></a>
 
-            <a href="#"><h5>Coronavirus Infects 1-Month-Old Baby in China, Health Officials Say</h5></a>
-
-            <p>The new form of the coronavirus dubbed 2019-nCoV has killed over 400 people since late last year.</p>
-          </div>
-
-          <div class="col-12">
-            <a href="#"> <img class="img-fluid" src="https://d.newsweek.com/en/full/1564751/coronavirus-cases-deaths-countries.jpg?w=397&h=265&q=90&f=1a976b3e110f18e73ef65202ba06dcb1" alt="news1"></a>
-
-            <a href="#"><h5>Coronavirus Infects 1-Month-Old Baby in China, Health Officials Say</h5></a>
+            <a href="#">
+              <h5>Coronavirus Infects 1-Month-Old Baby in China, Health Officials Say</h5>
+            </a>
 
             <p>The new form of the coronavirus dubbed 2019-nCoV has killed over 400 people since late last year.</p>
-          </div>
+          </article>
 
-          <div class="col-12">
-            <a href="#"> <img class="img-fluid" src="https://d.newsweek.com/en/full/1564751/coronavirus-cases-deaths-countries.jpg?w=397&h=265&q=90&f=1a976b3e110f18e73ef65202ba06dcb1" alt="news1"></a>
+          <article class="col-12">
+            <a href="#"> <img class="img-fluid"
+                src="https://d.newsweek.com/en/full/1564751/coronavirus-cases-deaths-countries.jpg?w=397&h=265&q=90&f=1a976b3e110f18e73ef65202ba06dcb1"
+                alt="news1"></a>
 
-            <a href="#"><h5>Coronavirus Infects 1-Month-Old Baby in China, Health Officials Say</h5></a>
+            <a href="#">
+              <h5>Coronavirus Infects 1-Month-Old Baby in China, Health Officials Say</h5>
+            </a>
 
             <p>The new form of the coronavirus dubbed 2019-nCoV has killed over 400 people since late last year.</p>
-          </div>
+          </article>
+
+          <article class="col-12">
+            <a href="#"> <img class="img-fluid"
+                src="https://d.newsweek.com/en/full/1564751/coronavirus-cases-deaths-countries.jpg?w=397&h=265&q=90&f=1a976b3e110f18e73ef65202ba06dcb1"
+                alt="news1"></a>
+
+            <a href="#">
+              <h5>Coronavirus Infects 1-Month-Old Baby in China, Health Officials Say</h5>
+            </a>
+
+            <p>The new form of the coronavirus dubbed 2019-nCoV has killed over 400 people since late last year.</p>
+          </article>
         </div>
-      
-      </div>
+
+      </section>
 
       <!-- top stories -->
 
-      <div class="order-1 order-md-2 order-lg-2 order-xl-2 col-12 col-lg-5 col-md-6">
+      <section class="section-top-stories order-1 order-md-2 order-lg-2 order-xl-2 col-12 col-lg-5 col-md-6 ">
 
-        <h5 class="title-featured" >TOP STORY</h5>
+        <h5 class="title-featured">TOP STORY</h5>
 
         <div class="row">
-          <div class="col-12">
-            <a href="#"><img class="img-fluid" src="https://d.newsweek.com/en/full/1564556/coronavirus-us-fear-trump-china.webp?w=591&h=364&f=f15015ad3c7eadab1b99ee5913484ec6" alt="news2"></a>
+          <article class="col-12">
+            <a href="#"><img class="img-fluid"
+                src="https://d.newsweek.com/en/full/1564556/coronavirus-us-fear-trump-china.webp?w=591&h=364&f=f15015ad3c7eadab1b99ee5913484ec6"
+                alt="news2"></a>
 
-            <a href="#"><h5>Coronavirus Infects 1-Month-Old Baby in China, Health Officials Say</h5></a>
+            <a href="#">
+              <h5>Coronavirus Infects 1-Month-Old Baby in China, Health Officials Say</h5>
+            </a>
 
             <p>The new form of the coronavirus dubbed 2019-nCoV has killed over 400 people since late last year.</p>
 
-            <p class="border-top border-bottom py-2">Coronavirus Outbreak in China 'Much Worse' Than Officially Reported, Claim Wuhan Residents</p>
-          </div>
+            <p class="border-top border-bottom py-2">Coronavirus Outbreak in China 'Much Worse' Than Officially
+              Reported, Claim Wuhan Residents</p>
+          </article>
         </div>
 
-        <!-- culture and travel -->
+        <!-- culture and travel-->
 
-        <div class="row bg-light mb-4">
-          <div class=" col-12 col-lg-12 pt-2">
-            <h5 class="title-featured mb-0" >CULTURE & TRAVEL</h5>
+        <section class="news-cont container-fluid">
+
+          <div class="row bg-light mb-4">
+            <article class=" col-12 col-lg-12 pt-2">
+              <h5 class="title-featured mb-0">CULTURE & TRAVEL</h5>
+
+            </article>
+
+            <article class=" col-12 col-lg-6 pt-3">
+              <a href="#"><img class="img-fluid"
+                  src="https://d.newsweek.com/en/full/1563246/cul-extremevacations-banner.webp?w=397&h=265&l=53&t=46&f=425beec66e56d27490eaf4fb8b62313d"
+                  alt="culture1"></a>
+
+              <a href="#">
+                <h6>High-Stakes Holidays That Cater to Thrill Seekers</h6>
+              </a>
+
+              <p>Looking to up the ante on your next adventure? Here are some extreme vacations that will stimulate
+                thrill
+                seekers cerebral and physical predilections for danger, risk and fantasy.</p>
+
+              <span>Travel</span>
+
+            </article>
+
+            <article class=" col-12 col-lg-6 pt-3">
+              <a href="#"><img class="img-fluid"
+                  src="https://d.newsweek.com/en/full/1563246/cul-extremevacations-banner.webp?w=397&h=265&l=53&t=46&f=425beec66e56d27490eaf4fb8b62313d"
+                  alt="culture1"></a>
+
+              <a href="#">
+                <h6>High-Stakes Holidays That Cater to Thrill Seekers</h6>
+              </a>
+
+              <p>Looking to up the ante on your next adventure? Here are some extreme vacations that will stimulate
+                thrill
+                seekers cerebral and physical predilections for danger, risk and fantasy.</p>
+
+              <span>Travel</span>
+
+            </article>
+
+            <article class=" col-12 col-lg-6 pt-3">
+              <a href="#"><img class="img-fluid"
+                  src="https://d.newsweek.com/en/full/1563246/cul-extremevacations-banner.webp?w=397&h=265&l=53&t=46&f=425beec66e56d27490eaf4fb8b62313d"
+                  alt="culture1"></a>
+
+              <a href="#">
+                <h6>High-Stakes Holidays That Cater to Thrill Seekers</h6>
+              </a>
+
+              <p>Looking to up the ante on your next adventure? Here are some extreme vacations that will stimulate
+                thrill
+                seekers cerebral and physical predilections for danger, risk and fantasy.</p>
+
+              <span>Travel</span>
+
+            </article>
+
+            <article class=" col-12 col-lg-6 pt-3">
+              <a href="#"><img class="img-fluid"
+                  src="https://d.newsweek.com/en/full/1563246/cul-extremevacations-banner.webp?w=397&h=265&l=53&t=46&f=425beec66e56d27490eaf4fb8b62313d"
+                  alt="culture1"></a>
+
+              <a href="#">
+                <h6>High-Stakes Holidays That Cater to Thrill Seekers</h6>
+              </a>
+
+              <p>Looking to up the ante on your next adventure? Here are some extreme vacations that will stimulate
+                thrill
+                seekers cerebral and physical predilections for danger, risk and fantasy.</p>
+
+              <span>Travel</span>
+
+            </article>
+
 
           </div>
 
-          <div class=" col-6 col-lg-6 pt-3">
-            <a href="#"><img class="img-fluid" src="https://d.newsweek.com/en/full/1563246/cul-extremevacations-banner.webp?w=397&h=265&l=53&t=46&f=425beec66e56d27490eaf4fb8b62313d" alt="culture1"></a>
+          <!-- mores stories -->
 
-            <a href="#"><h6>High-Stakes Holidays That Cater to Thrill Seekers</h6></a>
+          <div class="row mb-4 ">
+            <div class=" col-12 col-lg-12 pt-2">
+              <h5 class="title-featured mb-0">MORE STORIES</h5>
 
-            <p>Looking to up the ante on your next adventure? Here are some extreme vacations that will stimulate thrill seekers cerebral and physical predilections for danger, risk and fantasy.</p>
-
-            <span>Travel</span>
-
-          </div>
-
-          <div class=" col-6 col-lg-6 pt-3">
-            <a href="#"><img class="img-fluid" src="https://d.newsweek.com/en/full/1563246/cul-extremevacations-banner.webp?w=397&h=265&l=53&t=46&f=425beec66e56d27490eaf4fb8b62313d" alt="culture1"></a>
-
-            <a href="#"><h6>High-Stakes Holidays That Cater to Thrill Seekers</h6></a>
-
-            <p>Looking to up the ante on your next adventure? Here are some extreme vacations that will stimulate thrill seekers cerebral and physical predilections for danger, risk and fantasy.</p>
-
-            <span>Travel</span>
-
-          </div>
-
-          <div class=" col-6 col-lg-6 pt-3">
-            <a href="#"><img class="img-fluid" src="https://d.newsweek.com/en/full/1563246/cul-extremevacations-banner.webp?w=397&h=265&l=53&t=46&f=425beec66e56d27490eaf4fb8b62313d" alt="culture1"></a>
-
-            <a href="#"><h6>High-Stakes Holidays That Cater to Thrill Seekers</h6></a>
-
-            <p>Looking to up the ante on your next adventure? Here are some extreme vacations that will stimulate thrill seekers cerebral and physical predilections for danger, risk and fantasy.</p>
-
-            <span>Travel</span>
-
-          </div>
-
-          <div class=" col-6 col-lg-6 pt-3">
-            <a href="#"><img class="img-fluid" src="https://d.newsweek.com/en/full/1563246/cul-extremevacations-banner.webp?w=397&h=265&l=53&t=46&f=425beec66e56d27490eaf4fb8b62313d" alt="culture1"></a>
-
-            <a href="#"><h6>High-Stakes Holidays That Cater to Thrill Seekers</h6></a>
-
-            <p>Looking to up the ante on your next adventure? Here are some extreme vacations that will stimulate thrill seekers cerebral and physical predilections for danger, risk and fantasy.</p>
-
-            <span>Travel</span>
-
-          </div>
-
-    
-        </div>
-
-        <!-- mores stories -->
-
-        <div class="row mb-4">
-          <div class=" col-12 col-lg-12 pt-2">
-            <h5 class="title-featured mb-0" >MORE STORIES</h5>
-
-          </div>
-
-          <div class=" col-12 col-lg-12 pt-3 d-inline-block border-bottom">
-
-            <div class="pic-cont-mores"><a href="#"><img class="img-fluid pic-mores pr-2" src="https://d.newsweek.com/en/full/1564757/donald-trump-jr-anti-semitism-ifnotnow-protesters-iowa.webp?w=135&h=90&f=277f0a5a7aa1882abf96f6d7e3207c8d" alt="culture1"></a></div>
-
-            <div>
-              <a  href="#"><h6 class="title-mores">Jewish Protester Removed From Donald Trump Jr Iowa Speech</h6></a>
-
-            <p class="p-mores">The heckler—an organizer for progressive Jewish American group IfNotNow—accused Donald Trump Jr. of spreading anti-Semitic conspiracy theories</p>
             </div>
 
- 
+            <div class=" col-12 col-lg-12 pt-3 d-inline-block border-bottom">
 
-          </div>
+              <div class="pic-cont-mores"><a href="#"><img class="img-fluid pic-mores pr-2"
+                    src="https://d.newsweek.com/en/full/1564757/donald-trump-jr-anti-semitism-ifnotnow-protesters-iowa.webp?w=135&h=90&f=277f0a5a7aa1882abf96f6d7e3207c8d"
+                    alt="culture1"></a></div>
 
-          <div class=" col-12 col-lg-12 pt-3 d-inline-block border-bottom">
+              <div>
+                <a href="#">
+                  <h6 class="title-mores">Jewish Protester Removed From Donald Trump Jr Iowa Speech</h6>
+                </a>
 
-            <div class="pic-cont-mores"><a href="#"><img class="img-fluid pic-mores pr-2" src="https://d.newsweek.com/en/full/1564757/donald-trump-jr-anti-semitism-ifnotnow-protesters-iowa.webp?w=135&h=90&f=277f0a5a7aa1882abf96f6d7e3207c8d" alt="culture1"></a></div>
+                <p class="p-mores">The heckler—an organizer for progressive Jewish American group IfNotNow—accused
+                  Donald
+                  Trump Jr. of spreading anti-Semitic conspiracy theories</p>
+              </div>
 
-            <div>
-              <a  href="#"><h6 class="title-mores">Jewish Protester Removed From Donald Trump Jr Iowa Speech</h6></a>
 
-            <p class="p-mores">The heckler—an organizer for progressive Jewish American group IfNotNow—accused Donald Trump Jr. of spreading anti-Semitic conspiracy theories</p>
+
             </div>
 
- 
+            <div class=" col-12 col-lg-12 pt-3 d-inline-block border-bottom">
 
-          </div>
+              <div class="pic-cont-mores"><a href="#"><img class="img-fluid pic-mores pr-2"
+                    src="https://d.newsweek.com/en/full/1564757/donald-trump-jr-anti-semitism-ifnotnow-protesters-iowa.webp?w=135&h=90&f=277f0a5a7aa1882abf96f6d7e3207c8d"
+                    alt="culture1"></a></div>
 
-          <div class=" col-12 col-lg-12 pt-3 d-inline-block border-bottom">
+              <div>
+                <a href="#">
+                  <h6 class="title-mores">Jewish Protester Removed From Donald Trump Jr Iowa Speech</h6>
+                </a>
 
-            <div class="pic-cont-mores"><a href="#"><img class="img-fluid pic-mores pr-2" src="https://d.newsweek.com/en/full/1564757/donald-trump-jr-anti-semitism-ifnotnow-protesters-iowa.webp?w=135&h=90&f=277f0a5a7aa1882abf96f6d7e3207c8d" alt="culture1"></a></div>
+                <p class="p-mores">The heckler—an organizer for progressive Jewish American group IfNotNow—accused
+                  Donald
+                  Trump Jr. of spreading anti-Semitic conspiracy theories</p>
+              </div>
 
-            <div>
-              <a  href="#"><h6 class="title-mores">Jewish Protester Removed From Donald Trump Jr Iowa Speech</h6></a>
 
-            <p class="p-mores">The heckler—an organizer for progressive Jewish American group IfNotNow—accused Donald Trump Jr. of spreading anti-Semitic conspiracy theories</p>
+
             </div>
 
- 
+            <div class=" col-12 col-lg-12 pt-3 d-inline-block border-bottom">
 
-          </div>
+              <div class="pic-cont-mores"><a href="#"><img class="img-fluid pic-mores pr-2"
+                    src="https://d.newsweek.com/en/full/1564757/donald-trump-jr-anti-semitism-ifnotnow-protesters-iowa.webp?w=135&h=90&f=277f0a5a7aa1882abf96f6d7e3207c8d"
+                    alt="culture1"></a></div>
 
-          <div class=" col-12 col-lg-12 pt-3 d-inline-block border-bottom pr-2">
+              <div>
+                <a href="#">
+                  <h6 class="title-mores">Jewish Protester Removed From Donald Trump Jr Iowa Speech</h6>
+                </a>
 
-            <div class="pic-cont-mores"><a href="#"><img class="img-fluid pic-mores" src="https://d.newsweek.com/en/full/1564757/donald-trump-jr-anti-semitism-ifnotnow-protesters-iowa.webp?w=135&h=90&f=277f0a5a7aa1882abf96f6d7e3207c8d" alt="culture1"></a></div>
+                <p class="p-mores">The heckler—an organizer for progressive Jewish American group IfNotNow—accused
+                  Donald
+                  Trump Jr. of spreading anti-Semitic conspiracy theories</p>
+              </div>
 
-            <div>
-              <a  href="#"><h6 class="title-mores">Jewish Protester Removed From Donald Trump Jr Iowa Speech</h6></a>
 
-            <p class="p-mores">The heckler—an organizer for progressive Jewish American group IfNotNow—accused Donald Trump Jr. of spreading anti-Semitic conspiracy theories</p>
+
             </div>
 
- 
+            <div class=" col-12 col-lg-12 pt-3 d-inline-block border-bottom">
 
-          </div>
+              <div class="pic-cont-mores"><a href="#"><img class="img-fluid pic-mores pr-2"
+                    src="https://d.newsweek.com/en/full/1564757/donald-trump-jr-anti-semitism-ifnotnow-protesters-iowa.webp?w=135&h=90&f=277f0a5a7aa1882abf96f6d7e3207c8d"
+                    alt="culture1"></a></div>
 
-          <div class=" col-12 col-lg-12 pt-3 d-inline-block border-bottom">
+              <div>
+                <a href="#">
+                  <h6 class="title-mores">Jewish Protester Removed From Donald Trump Jr Iowa Speech</h6>
+                </a>
 
-            <div class="pic-cont-mores"><a href="#"><img class="img-fluid pic-mores pr-2" src="https://d.newsweek.com/en/full/1564757/donald-trump-jr-anti-semitism-ifnotnow-protesters-iowa.webp?w=135&h=90&f=277f0a5a7aa1882abf96f6d7e3207c8d" alt="culture1"></a></div>
+                <p class="p-mores">The heckler—an organizer for progressive Jewish American group IfNotNow—accused
+                  Donald
+                  Trump Jr. of spreading anti-Semitic conspiracy theories</p>
+              </div>
 
-            <div>
-              <a  href="#"><h6 class="title-mores">Jewish Protester Removed From Donald Trump Jr Iowa Speech</h6></a>
 
-            <p class="p-mores">The heckler—an organizer for progressive Jewish American group IfNotNow—accused Donald Trump Jr. of spreading anti-Semitic conspiracy theories</p>
+
             </div>
 
- 
+            <div class=" col-12 col-lg-12 pt-3 d-inline-block border-bottom">
 
-          </div>
+              <div class="pic-cont-mores"><a href="#"><img class="img-fluid pic-mores pr-2"
+                    src="https://d.newsweek.com/en/full/1564757/donald-trump-jr-anti-semitism-ifnotnow-protesters-iowa.webp?w=135&h=90&f=277f0a5a7aa1882abf96f6d7e3207c8d"
+                    alt="culture1"></a></div>
 
-          <div class=" col-12 col-lg-12 pt-3 d-inline-block border-bottom pr-2">
+              <div>
+                <a href="#">
+                  <h6 class="title-mores">Jewish Protester Removed From Donald Trump Jr Iowa Speech</h6>
+                </a>
 
-            <div class="pic-cont-mores"><a href="#"><img class="img-fluid pic-mores" src="https://d.newsweek.com/en/full/1564757/donald-trump-jr-anti-semitism-ifnotnow-protesters-iowa.webp?w=135&h=90&f=277f0a5a7aa1882abf96f6d7e3207c8d" alt="culture1"></a></div>
+                <p class="p-mores">The heckler—an organizer for progressive Jewish American group IfNotNow—accused
+                  Donald
+                  Trump Jr. of spreading anti-Semitic conspiracy theories</p>
+              </div>
 
-            <div>
-              <a  href="#"><h6 class="title-mores">Jewish Protester Removed From Donald Trump Jr Iowa Speech</h6></a>
 
-            <p class="p-mores">The heckler—an organizer for progressive Jewish American group IfNotNow—accused Donald Trump Jr. of spreading anti-Semitic conspiracy theories</p>
+
             </div>
 
- 
+            <div class=" col-12 col-lg-12 pt-3 d-inline-block border-bottom">
 
-          </div>
+              <div class="pic-cont-mores"><a href="#"><img class="img-fluid pic-mores pr-2"
+                    src="https://d.newsweek.com/en/full/1564757/donald-trump-jr-anti-semitism-ifnotnow-protesters-iowa.webp?w=135&h=90&f=277f0a5a7aa1882abf96f6d7e3207c8d"
+                    alt="culture1"></a></div>
 
-          <div class=" col-12 col-lg-12 pt-3 d-inline-block border-bottom pr-2">
+              <div>
+                <a href="#">
+                  <h6 class="title-mores">Jewish Protester Removed From Donald Trump Jr Iowa Speech</h6>
+                </a>
 
-            <div class="pic-cont-mores"><a href="#"><img class="img-fluid pic-mores" src="https://d.newsweek.com/en/full/1564757/donald-trump-jr-anti-semitism-ifnotnow-protesters-iowa.webp?w=135&h=90&f=277f0a5a7aa1882abf96f6d7e3207c8d" alt="culture1"></a></div>
+                <p class="p-mores">The heckler—an organizer for progressive Jewish American group IfNotNow—accused
+                  Donald
+                  Trump Jr. of spreading anti-Semitic conspiracy theories</p>
+              </div>
 
-            <div>
-              <a  href="#"><h6 class="title-mores">Jewish Protester Removed From Donald Trump Jr Iowa Speech</h6></a>
 
-            <p class="p-mores">The heckler—an organizer for progressive Jewish American group IfNotNow—accused Donald Trump Jr. of spreading anti-Semitic conspiracy theories</p>
+
             </div>
 
- 
+            <div class=" col-12 col-lg-12 pt-3 d-inline-block border-bottom">
 
-          </div>
+              <div class="pic-cont-mores"><a href="#"><img class="img-fluid pic-mores pr-2"
+                    src="https://d.newsweek.com/en/full/1564757/donald-trump-jr-anti-semitism-ifnotnow-protesters-iowa.webp?w=135&h=90&f=277f0a5a7aa1882abf96f6d7e3207c8d"
+                    alt="culture1"></a></div>
 
-          <div class=" col-12 col-lg-12 pt-3 d-inline-block border-bottom">
+              <div>
+                <a href="#">
+                  <h6 class="title-mores">Jewish Protester Removed From Donald Trump Jr Iowa Speech</h6>
+                </a>
 
-            <div class="pic-cont-mores"><a href="#"><img class="img-fluid pic-mores pr-2" src="https://d.newsweek.com/en/full/1564757/donald-trump-jr-anti-semitism-ifnotnow-protesters-iowa.webp?w=135&h=90&f=277f0a5a7aa1882abf96f6d7e3207c8d" alt="culture1"></a></div>
+                <p class="p-mores">The heckler—an organizer for progressive Jewish American group IfNotNow—accused
+                  Donald
+                  Trump Jr. of spreading anti-Semitic conspiracy theories</p>
+              </div>
 
-            <div>
-              <a  href="#"><h6 class="title-mores">Jewish Protester Removed From Donald Trump Jr Iowa Speech</h6></a>
 
-            <p class="p-mores">The heckler—an organizer for progressive Jewish American group IfNotNow—accused Donald Trump Jr. of spreading anti-Semitic conspiracy theories</p>
+
             </div>
 
- 
+            <div class=" col-12 col-lg-12 pt-3 d-inline-block border-bottom">
 
-          </div>
+              <div class="pic-cont-mores"><a href="#"><img class="img-fluid pic-mores pr-2"
+                    src="https://d.newsweek.com/en/full/1564757/donald-trump-jr-anti-semitism-ifnotnow-protesters-iowa.webp?w=135&h=90&f=277f0a5a7aa1882abf96f6d7e3207c8d"
+                    alt="culture1"></a></div>
 
-          <div class=" col-12 col-lg-12 pt-3 d-inline-block border-bottom">
+              <div>
+                <a href="#">
+                  <h6 class="title-mores">Jewish Protester Removed From Donald Trump Jr Iowa Speech</h6>
+                </a>
 
-            <div class="pic-cont-mores"><a href="#"><img class="img-fluid pic-mores pr-2" src="https://d.newsweek.com/en/full/1564757/donald-trump-jr-anti-semitism-ifnotnow-protesters-iowa.webp?w=135&h=90&f=277f0a5a7aa1882abf96f6d7e3207c8d" alt="culture1"></a></div>
+                <p class="p-mores">The heckler—an organizer for progressive Jewish American group IfNotNow—accused
+                  Donald
+                  Trump Jr. of spreading anti-Semitic conspiracy theories</p>
+              </div>
 
-            <div>
-              <a  href="#"><h6 class="title-mores">Jewish Protester Removed From Donald Trump Jr Iowa Speech</h6></a>
 
-            <p class="p-mores">The heckler—an organizer for progressive Jewish American group IfNotNow—accused Donald Trump Jr. of spreading anti-Semitic conspiracy theories</p>
+
             </div>
 
- 
+            <div class=" col-12 col-lg-12 pt-3 d-inline-block border-bottom">
 
-          </div>
+              <div class="pic-cont-mores"><a href="#"><img class="img-fluid pic-mores pr-2"
+                    src="https://d.newsweek.com/en/full/1564757/donald-trump-jr-anti-semitism-ifnotnow-protesters-iowa.webp?w=135&h=90&f=277f0a5a7aa1882abf96f6d7e3207c8d"
+                    alt="culture1"></a></div>
 
-          <div class=" col-12 col-lg-12 pt-3 d-inline-block border-bottom">
+              <div>
+                <a href="#">
+                  <h6 class="title-mores">Jewish Protester Removed From Donald Trump Jr Iowa Speech</h6>
+                </a>
 
-            <div class="pic-cont-mores"><a href="#"><img class="img-fluid pic-mores pr-2" src="https://d.newsweek.com/en/full/1564757/donald-trump-jr-anti-semitism-ifnotnow-protesters-iowa.webp?w=135&h=90&f=277f0a5a7aa1882abf96f6d7e3207c8d" alt="culture1"></a></div>
+                <p class="p-mores">The heckler—an organizer for progressive Jewish American group IfNotNow—accused
+                  Donald
+                  Trump Jr. of spreading anti-Semitic conspiracy theories</p>
+              </div>
 
-            <div>
-              <a  href="#"><h6 class="title-mores">Jewish Protester Removed From Donald Trump Jr Iowa Speech</h6></a>
 
-            <p class="p-mores">The heckler—an organizer for progressive Jewish American group IfNotNow—accused Donald Trump Jr. of spreading anti-Semitic conspiracy theories</p>
+
             </div>
 
- 
+            <div class=" col-12 col-lg-12 pt-3 d-inline-block border-bottom">
 
-          </div>
+              <div class="pic-cont-mores"><a href="#"><img class="img-fluid pic-mores pr-2"
+                    src="https://d.newsweek.com/en/full/1564757/donald-trump-jr-anti-semitism-ifnotnow-protesters-iowa.webp?w=135&h=90&f=277f0a5a7aa1882abf96f6d7e3207c8d"
+                    alt="culture1"></a></div>
 
-          <div class=" col-12 col-lg-12 pt-3 d-inline-block border-bottom">
+              <div>
+                <a href="#">
+                  <h6 class="title-mores">Jewish Protester Removed From Donald Trump Jr Iowa Speech</h6>
+                </a>
 
-            <div class="pic-cont-mores"><a href="#"><img class="img-fluid pic-mores pr-2" src="https://d.newsweek.com/en/full/1564757/donald-trump-jr-anti-semitism-ifnotnow-protesters-iowa.webp?w=135&h=90&f=277f0a5a7aa1882abf96f6d7e3207c8d" alt="culture1"></a></div>
+                <p class="p-mores">The heckler—an organizer for progressive Jewish American group IfNotNow—accused
+                  Donald
+                  Trump Jr. of spreading anti-Semitic conspiracy theories</p>
+              </div>
 
-            <div>
-              <a  href="#"><h6 class="title-mores">Jewish Protester Removed From Donald Trump Jr Iowa Speech</h6></a>
 
-            <p class="p-mores">The heckler—an organizer for progressive Jewish American group IfNotNow—accused Donald Trump Jr. of spreading anti-Semitic conspiracy theories</p>
+
             </div>
 
- 
+            <div class=" col-12 col-lg-12 pt-3 d-inline-block border-bottom">
 
-          </div>
+              <div class="pic-cont-mores"><a href="#"><img class="img-fluid pic-mores pr-2"
+                    src="https://d.newsweek.com/en/full/1564757/donald-trump-jr-anti-semitism-ifnotnow-protesters-iowa.webp?w=135&h=90&f=277f0a5a7aa1882abf96f6d7e3207c8d"
+                    alt="culture1"></a></div>
 
-          <div class=" col-12 col-lg-12 pt-3 d-inline-block border-bottom">
+              <div>
+                <a href="#">
+                  <h6 class="title-mores">Jewish Protester Removed From Donald Trump Jr Iowa Speech</h6>
+                </a>
 
-            <div class="pic-cont-mores"><a href="#"><img class="img-fluid pic-mores pr-2" src="https://d.newsweek.com/en/full/1564757/donald-trump-jr-anti-semitism-ifnotnow-protesters-iowa.webp?w=135&h=90&f=277f0a5a7aa1882abf96f6d7e3207c8d" alt="culture1"></a></div>
+                <p class="p-mores">The heckler—an organizer for progressive Jewish American group IfNotNow—accused
+                  Donald
+                  Trump Jr. of spreading anti-Semitic conspiracy theories</p>
+              </div>
 
-            <div>
-              <a  href="#"><h6 class="title-mores">Jewish Protester Removed From Donald Trump Jr Iowa Speech</h6></a>
 
-            <p class="p-mores">The heckler—an organizer for progressive Jewish American group IfNotNow—accused Donald Trump Jr. of spreading anti-Semitic conspiracy theories</p>
+
             </div>
 
- 
-
           </div>
-        </div>
-        
 
-      </div>
+        </section>
 
-      <div class="order-3 col-12 col-lg-3 col-md-12"> 
-        <h5 class="title-featured" >Opinion</h5>
+      </section>
 
-        <div class="row my-2 py-2 border-bottom">
+      <!-- opinion column -->
+
+      <section class="section-opinion order-3 col-12 col-lg-3 col-md-12 pr-0">
+        <h5 class="title-featured">Opinion</h5>
+
+        <div class="row my-1 py-1 border-bottom">
           <div class="col-12 d-flex flex-row">
 
             <div>
-              <img class="autor px-1" src="https://d.newsweek.com/en/full/1500975/sam-hill.webp?w=63&h=63&f=608e92ee38c2b44188e64f7006592687" alt="autor">
+              <a href="#"> <img class="autor px-1"
+                  src="https://d.newsweek.com/en/full/1500975/sam-hill.webp?w=63&h=63&f=608e92ee38c2b44188e64f7006592687"
+                  alt="autor"></a>
             </div>
-            
+
 
             <div>
-              <a href="#"><h6 class="my-0">Trump's Travel Ban on Nigeria Will Hurt Both Countries</h6></a>
+              <a href="#">
+                <h6 class="my-0">Trump's Travel Ban on Nigeria Will Hurt Both Countries</h6>
+              </a>
               <span>BY SAM HILL</span>
             </div>
 
-            
+
           </div>
         </div>
 
-        <div class="row my-2 py-2 border-bottom">
+        <div class="row my-1 py-1 border-bottom">
           <div class="col-12 d-flex flex-row">
 
             <div>
-              <img class="autor px-1" src="https://d.newsweek.com/en/full/1500975/sam-hill.webp?w=63&h=63&f=608e92ee38c2b44188e64f7006592687" alt="autor">
+              <a href="#"> <img class="autor px-1"
+                  src="https://d.newsweek.com/en/full/1500975/sam-hill.webp?w=63&h=63&f=608e92ee38c2b44188e64f7006592687"
+                  alt="autor"></a>
             </div>
-            
+
 
             <div>
-              <a href="#"><h6 class="my-0">Trump's Travel Ban on Nigeria Will Hurt Both Countries</h6></a>
+              <a href="#">
+                <h6 class="my-0">Trump's Travel Ban on Nigeria Will Hurt Both Countries</h6>
+              </a>
               <span>BY SAM HILL</span>
             </div>
 
-            
+
           </div>
         </div>
 
-        <div class="row my-2 py-2 border-bottom">
+        <div class="row my-1 py-1 border-bottom">
           <div class="col-12 d-flex flex-row">
 
             <div>
-              <img class="autor px-1" src="https://d.newsweek.com/en/full/1500975/sam-hill.webp?w=63&h=63&f=608e92ee38c2b44188e64f7006592687" alt="autor">
+              <a href="#"> <img class="autor px-1"
+                  src="https://d.newsweek.com/en/full/1500975/sam-hill.webp?w=63&h=63&f=608e92ee38c2b44188e64f7006592687"
+                  alt="autor"></a>
             </div>
-            
+
 
             <div>
-              <a href="#"><h6 class="my-0">Trump's Travel Ban on Nigeria Will Hurt Both Countries</h6></a>
+              <a href="#">
+                <h6 class="my-0">Trump's Travel Ban on Nigeria Will Hurt Both Countries</h6>
+              </a>
               <span>BY SAM HILL</span>
             </div>
 
-            
+
           </div>
         </div>
 
-        <div class="row my-2 py-2 border-bottom">
+        <div class="row my-1 py-1 border-bottom">
           <div class="col-12 d-flex flex-row">
 
             <div>
-              <img class="autor px-1" src="https://d.newsweek.com/en/full/1500975/sam-hill.webp?w=63&h=63&f=608e92ee38c2b44188e64f7006592687" alt="autor">
+              <a href="#"> <img class="autor px-1"
+                  src="https://d.newsweek.com/en/full/1500975/sam-hill.webp?w=63&h=63&f=608e92ee38c2b44188e64f7006592687"
+                  alt="autor"></a>
             </div>
-            
+
 
             <div>
-              <a href="#"><h6 class="my-0">Trump's Travel Ban on Nigeria Will Hurt Both Countries</h6></a>
+              <a href="#">
+                <h6 class="my-0">Trump's Travel Ban on Nigeria Will Hurt Both Countries</h6>
+              </a>
               <span>BY SAM HILL</span>
             </div>
 
-            
+
           </div>
         </div>
 
-        <div class="row my-2 py-2 border-bottom">
+        <div class="row my-1 py-1 border-bottom">
           <div class="col-12 d-flex flex-row">
 
             <div>
-              <img class="autor px-1" src="https://d.newsweek.com/en/full/1500975/sam-hill.webp?w=63&h=63&f=608e92ee38c2b44188e64f7006592687" alt="autor">
+              <a href="#"> <img class="autor px-1"
+                  src="https://d.newsweek.com/en/full/1500975/sam-hill.webp?w=63&h=63&f=608e92ee38c2b44188e64f7006592687"
+                  alt="autor"></a>
             </div>
-            
+
 
             <div>
-              <a href="#"><h6 class="my-0">Trump's Travel Ban on Nigeria Will Hurt Both Countries</h6></a>
+              <a href="#">
+                <h6 class="my-0">Trump's Travel Ban on Nigeria Will Hurt Both Countries</h6>
+              </a>
               <span>BY SAM HILL</span>
             </div>
 
-            
+
           </div>
         </div>
 
-        <div class="row my-2 py-2 border-bottom">
+        <div class="row my-1 py-1 border-bottom">
           <div class="col-12 d-flex flex-row">
 
             <div>
-              <img class="autor px-1" src="https://d.newsweek.com/en/full/1500975/sam-hill.webp?w=63&h=63&f=608e92ee38c2b44188e64f7006592687" alt="autor">
+              <a href="#"> <img class="autor px-1"
+                  src="https://d.newsweek.com/en/full/1500975/sam-hill.webp?w=63&h=63&f=608e92ee38c2b44188e64f7006592687"
+                  alt="autor"></a>
             </div>
-            
+
 
             <div>
-              <a href="#"><h6 class="my-0">Trump's Travel Ban on Nigeria Will Hurt Both Countries</h6></a>
+              <a href="#">
+                <h6 class="my-0">Trump's Travel Ban on Nigeria Will Hurt Both Countries</h6>
+              </a>
               <span>BY SAM HILL</span>
             </div>
 
-            
+
           </div>
         </div>
 
-        <div class="row my-2 py-2 border-bottom">
+        <h5 class="title-featured">Latest News</h5>
+
+        <div class="row my-1 py-1 border-bottom">
           <div class="col-12 d-flex flex-row ">
 
             <div>
-              <img class="autor px-1" src="https://d.newsweek.com/en/full/1500975/sam-hill.webp?w=63&h=63&f=608e92ee38c2b44188e64f7006592687" alt="autor">
+              <a href="#"> <img class="pic-thumb px-1"
+                  src="https://d.newsweek.com/en/full/1563664/tom-papa.webp?w=397&h=265&f=cf91fc307631579fdbb2613d0a58abb7"
+                  alt="autor"></a>
             </div>
-            
 
             <div>
-              <a href="#"><h6 class="my-0">Trump's Travel Ban on Nigeria Will Hurt Both Countries</h6></a>
-              <span>BY SAM HILL</span>
+              <a href="#">
+                <h6 class="my-0">Tom Papa on His New Netflix Special 'You're Doing Great'</h6>
+              </a>
             </div>
 
-            
+
           </div>
         </div>
 
+        <div class="row my-1 py-1 border-bottom">
+          <div class="col-12 d-flex flex-row ">
 
-      </div>
+            <div>
+              <a href="#"> <img class="pic-thumb px-1"
+                  src="https://d.newsweek.com/en/full/1563664/tom-papa.webp?w=397&h=265&f=cf91fc307631579fdbb2613d0a58abb7"
+                  alt="autor"></a>
+            </div>
+
+            <div>
+              <a href="#">
+                <h6 class="my-0">Tom Papa on His New Netflix Special 'You're Doing Great'</h6>
+              </a>
+            </div>
+
+
+          </div>
+        </div>
+
+        <div class="row my-1 py-1 border-bottom">
+          <div class="col-12 d-flex flex-row ">
+
+            <div>
+              <a href="#"> <img class="pic-thumb px-1"
+                  src="https://d.newsweek.com/en/full/1563664/tom-papa.webp?w=397&h=265&f=cf91fc307631579fdbb2613d0a58abb7"
+                  alt="autor"></a>
+            </div>
+
+            <div>
+              <a href="#">
+                <h6 class="my-0">Tom Papa on His New Netflix Special 'You're Doing Great'</h6>
+              </a>
+            </div>
+
+
+          </div>
+        </div>
+
+        <div class="row my-1 py-1 border-bottom">
+          <div class="col-12 d-flex flex-row ">
+
+            <div>
+              <a href="#"> <img class="pic-thumb px-1"
+                  src="https://d.newsweek.com/en/full/1563664/tom-papa.webp?w=397&h=265&f=cf91fc307631579fdbb2613d0a58abb7"
+                  alt="autor"></a>
+            </div>
+
+            <div>
+              <a href="#">
+                <h6 class="my-0">Tom Papa on His New Netflix Special 'You're Doing Great'</h6>
+              </a>
+            </div>
+
+
+          </div>
+        </div>
+
+        <div class="row my-1 py-1 border-bottom">
+          <div class="col-12 d-flex flex-row ">
+
+            <div>
+              <a href="#"> <img class="pic-thumb px-1"
+                  src="https://d.newsweek.com/en/full/1563664/tom-papa.webp?w=397&h=265&f=cf91fc307631579fdbb2613d0a58abb7"
+                  alt="autor"></a>
+            </div>
+
+            <div>
+              <a href="#">
+                <h6 class="my-0">Tom Papa on His New Netflix Special 'You're Doing Great'</h6>
+              </a>
+            </div>
+
+
+          </div>
+        </div>
+
+        <div class="row my-1 py-1 border-bottom">
+          <div class="col-12 d-flex flex-row ">
+
+            <div>
+              <a href="#"> <img class="pic-thumb px-1"
+                  src="https://d.newsweek.com/en/full/1563664/tom-papa.webp?w=397&h=265&f=cf91fc307631579fdbb2613d0a58abb7"
+                  alt="autor"></a>
+            </div>
+
+            <div>
+              <a href="#">
+                <h6 class="my-0">Tom Papa on His New Netflix Special 'You're Doing Great'</h6>
+              </a>
+            </div>
+
+
+          </div>
+        </div>
+
+        <div class="row my-1 py-1 border-bottom">
+          <div class="col-12 d-flex flex-row ">
+
+            <div>
+              <a href="#"> <img class="pic-thumb px-1"
+                  src="https://d.newsweek.com/en/full/1563664/tom-papa.webp?w=397&h=265&f=cf91fc307631579fdbb2613d0a58abb7"
+                  alt="autor"></a>
+            </div>
+
+            <div>
+              <a href="#">
+                <h6 class="my-0">Tom Papa on His New Netflix Special 'You're Doing Great'</h6>
+              </a>
+            </div>
+
+
+          </div>
+        </div>
+
+      </section>
     </div>
-
   </main>
+
+  <aside class="container-fluid">
+
+    <!-- thumb -articles -->
+    <section class="row">
+
+      <div class="col-12 col-lg-3 col-md-3"></div>
+      <div class="col-12 col-lg-8 col-md-8 border-bottom">
+        <h5 class="text-center font-weight-bold"><span class="text-white bg-danger font-weight-bold px-1">N</span> IN THE MAGAZINE</h5>
+      </div>
+
+      <article class="section-thumb-art  col-12 col-lg-3 col-md-3">
+        <div class="my-2">
+          <div class="text-center">
+            <a href="#"> <img class="img-fluid  thumb-art"
+                src="https://d.newsweek.com/en/full/1563281/february-7-2020-cover.webp?w=290&h=387&q=90&f=6b77f96db77b3b5ba63b5b4885a3a6dc"
+                alt="news1"></a>
+          </div>
+          <a class="art-link w-100" href="#">SEE ALL FEATURES</a>
+        </div>
+      </article>
+
+      <article class="section-thumb-art  col-12 col-lg-3 col-md-3">
+        <div class="my-2">
+          <div class="text-center w-100">
+            <a href="#"> <img class=" img-fluid thumb-art2 mt-2"
+                src="https://d.newsweek.com/en/full/1558608/trump-iran-deescalation.webp?w=466&h=311&q=90&f=abf152c3b744f9eaf5410782549b55f5"
+                alt="news1"></a>
+          </div>
+          <div class="my-1">
+            <span class="text-white d-inline-block bg-danger px-2 mr-1 font-weight-bold">COVER</span> <span
+              class="d-inline-block text-danger  font-weight-bold"><a>WORLD</a></span>
+          </div>
+          <a class="art-link2 w-100" href="#">
+            <h5 class=" title-text-mag text-body font-weight-bold">With a New Weapon in Trump's Hands, The Iran Crisis
+              Risks Going Nuclear</h5>
+          </a>
+        </div>
+      </article>
+
+      <article class="section-thumb-art  col-12 col-lg-3 col-md-3">
+        <div class="my-2">
+          <div class="text-center w-100">
+            <a href="#"> <img class=" img-fluid thumb-art2 mt-2"
+                src="https://d.newsweek.com/en/full/1558608/trump-iran-deescalation.webp?w=466&h=311&q=90&f=abf152c3b744f9eaf5410782549b55f5"
+                alt="news1"></a>
+          </div>
+          <div class="my-1">
+            <span class="text-white d-inline-block bg-danger px-2 mr-1 font-weight-bold">COVER</span> <span
+              class="d-inline-block text-danger  font-weight-bold"><a>WORLD</a></span>
+          </div>
+          <a class="art-link2 w-100" href="#">
+            <h5 class=" title-text-mag text-body font-weight-bold">With a New Weapon in Trump's Hands, The Iran Crisis
+              Risks Going Nuclear</h5>
+          </a>
+        </div>
+      </article>
+
+      <article class="section-thumb-art  col-12 col-lg-3 col-md-3">
+        <div class="my-2">
+          <div class="text-center w-100">
+            <a href="#"> <img class=" img-fluid thumb-art2 mt-2"
+                src="https://d.newsweek.com/en/full/1558608/trump-iran-deescalation.webp?w=466&h=311&q=90&f=abf152c3b744f9eaf5410782549b55f5"
+                alt="news1"></a>
+          </div>
+          <div class="my-1">
+            <span class="text-white d-inline-block bg-danger px-2 mr-1 font-weight-bold">COVER</span> <span
+              class="d-inline-block text-danger  font-weight-bold"><a>WORLD</a></span>
+          </div>
+          <a class="art-link2 w-100" href="#">
+            <h5 class=" title-text-mag text-body font-weight-bold">With a New Weapon in Trump's Hands, The Iran Crisis
+              Risks Going Nuclear</h5>
+          </a>
+        </div>
+      </article>
+
+      <article class="section-thumb-art  col-12 col-lg-3 col-md-3">
+        <div class="my-2">
+          <div class="text-center w-100">
+            <a href="#"> <img class=" img-fluid thumb-art2 mt-2"
+                src="https://d.newsweek.com/en/full/1558608/trump-iran-deescalation.webp?w=466&h=311&q=90&f=abf152c3b744f9eaf5410782549b55f5"
+                alt="news1"></a>
+          </div>
+          <div class="my-1">
+            <span class="text-white d-inline-block bg-danger px-2 mr-1 font-weight-bold">COVER</span> <span
+              class="d-inline-block text-danger  font-weight-bold"><a>WORLD</a></span>
+          </div>
+          <a class="art-link2 w-100" href="#">
+            <h5 class=" title-text-mag text-body font-weight-bold">With a New Weapon in Trump's Hands, The Iran Crisis
+              Risks Going Nuclear</h5>
+          </a>
+        </div>
+      </article>
+
+      <article class="section-thumb-art  col-12 col-lg-3 col-md-3">
+        <div class="my-2">
+          <div class="text-center w-100">
+            <a href="#"> <img class=" img-fluid thumb-art2 mt-2"
+                src="https://d.newsweek.com/en/full/1558608/trump-iran-deescalation.webp?w=466&h=311&q=90&f=abf152c3b744f9eaf5410782549b55f5"
+                alt="news1"></a>
+          </div>
+          <div class="my-1">
+            <span class="text-white d-inline-block bg-danger px-2 mr-1 font-weight-bold">COVER</span> <span
+              class="d-inline-block text-danger  font-weight-bold"><a>WORLD</a></span>
+          </div>
+          <a class="art-link2 w-100" href="#">
+            <h5 class=" title-text-mag text-body font-weight-bold">With a New Weapon in Trump's Hands, The Iran Crisis
+              Risks Going Nuclear</h5>
+          </a>
+        </div>
+      </article>
+
+      <article class="section-thumb-art  col-12 col-lg-3 col-md-3">
+        <div class="my-2">
+          <div class="text-center w-100">
+            <a href="#"> <img class=" img-fluid thumb-art2 mt-2"
+                src="https://d.newsweek.com/en/full/1558608/trump-iran-deescalation.webp?w=466&h=311&q=90&f=abf152c3b744f9eaf5410782549b55f5"
+                alt="news1"></a>
+          </div>
+          <div class="my-1">
+            <span class="text-white d-inline-block bg-danger px-2 mr-1 font-weight-bold">COVER</span> <span
+              class="d-inline-block text-danger  font-weight-bold"><a>WORLD</a></span>
+          </div>
+          <a class="art-link2 w-100" href="#">
+            <h5 class=" title-text-mag text-body font-weight-bold">With a New Weapon in Trump's Hands, The Iran Crisis
+              Risks Going Nuclear</h5>
+          </a>
+        </div>
+      </article>
+
+      <article class="section-thumb-art  col-12 col-lg-3 col-md-3">
+        <div class="my-2">
+          <div class="text-center w-100">
+            <a href="#"> <img class=" img-fluid thumb-art2 mt-2"
+                src="https://d.newsweek.com/en/full/1558608/trump-iran-deescalation.webp?w=466&h=311&q=90&f=abf152c3b744f9eaf5410782549b55f5"
+                alt="news1"></a>
+          </div>
+          <div class="my-1">
+            <span class="text-white d-inline-block bg-danger px-2 mr-1 font-weight-bold">COVER</span> <span
+              class="d-inline-block text-danger  font-weight-bold"><a>WORLD</a></span>
+          </div>
+          <a class="art-link2 w-100" href="#">
+            <h5 class=" title-text-mag text-body font-weight-bold">With a New Weapon in Trump's Hands, The Iran Crisis
+              Risks Going Nuclear</h5>
+          </a>
+        </div>
+      </article>
+
+
+
+
+
+
+
+
+
+    </section>
+
+  </aside>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
