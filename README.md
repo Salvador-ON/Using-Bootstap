@@ -2,7 +2,7 @@
 
 > This is the Seventh project of the Microverse Courses.
 
-![screenshot](/assets/app_screenshot.png)
+![screenshot](media/screen-website.jpg)
 
 Using CSS Preprocessors to Save Time replicating the landing page of [NewsWeek](https://www.newsweek.com)
 
