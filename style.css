@@ -187,7 +187,7 @@ header {
 .pic-cont-nl {
   background: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png) -80px 0;
   background-size: cover;
-  min-height: 300px;
+  min-height: 318px;
   margin-left: 30px;
 }
 
@@ -378,7 +378,7 @@ header {
   .pic-cont-nl {
     background: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png) -150px 0;
     background-size: cover;
-    min-height: 300px;
+    min-height: 418px;
     margin-left: 0;
   }
 }
