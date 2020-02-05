@@ -108,6 +108,23 @@ header {
   text-decoration-color: rgb(233, 3, 91);
 }
 
+.art-link3 {
+  background: red;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+.art-link3:hover {
+  background: rgb(173, 0, 0);
+  color: white;
+  text-decoration: none;
+}
+
 .text-black-left,
 .text-black-right {
   background: black;
@@ -156,6 +173,20 @@ header {
   background: url(https://d.newsweek.com/en/full/1555352/newsweek-conversations-matthew-modine.jpg) -50px 0;
   background-size: cover;
   min-height: 100px;
+}
+
+.thub-mag {
+  width: 35%;
+}
+
+.title-news {
+  margin-left: -15px;
+}
+
+.pic-cont-nl {
+  background: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png) -150px 0;
+  background-size: cover;
+  min-height: 300px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
