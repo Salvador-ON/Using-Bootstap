@@ -1,5 +1,6 @@
 body {
   min-width: 320px;
+  max-width: 767px;
   overflow-x: hidden;
 }
 
@@ -191,6 +192,25 @@ header {
   margin-left: 30px;
 }
 
+.logo-bottom {
+  width: 100%;
+}
+
+.text-mark {
+  font-size: 12px;
+}
+
+.list-group-item {
+  padding: 0 5px;
+  height: auto;
+  border-top: 0;
+  border-bottom: 0;
+}
+
+.editions {
+  height: 20px;
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   body {
     min-width: 768px;
@@ -310,6 +330,10 @@ header {
     min-height: 300px;
     margin-left: 0;
   }
+
+  .logo-bottom {
+    width: 40%;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -380,5 +404,9 @@ header {
     background-size: cover;
     min-height: 378px;
     margin-left: 0;
+  }
+
+  .logo-bottom {
+    width: 40%;
   }
 }

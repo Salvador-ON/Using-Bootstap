@@ -1,2 +1,38 @@
 # Using-Bootstap
-Microverse HTML &amp; CSS Project 7
+
+> This is the Seventh project of the Microverse Courses.
+
+![screenshot](/assets/app_screenshot.png)
+
+Using CSS Preprocessors to Save Time replicating the landing page of [NewsWeek](https://www.newsweek.com)
+
+## Built With
+
+- HTML,
+- CSS,
+
+## GitHub Repo
+
+- https://github.com/Salvador-ON/Using-Bootstap
+
+## Live Demo
+
+- [Demo]()
+
+## Author
+
+
+👤 **Salvador Olvera Nava**
+
+- Github: [@Salvador-ON](https://github.com/Salvador-ON)
+- Twitter: [@Salvador_ON](https://twitter.com/Salvador_ON)
+- Linkedin: [Salvador Olvera](https://www.linkedin.com/in/salvador-olvera-n)
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+
+## 📝 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
