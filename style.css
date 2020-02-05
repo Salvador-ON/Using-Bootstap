@@ -1,5 +1,6 @@
 body {
   min-width: 320px;
+  overflow-x: hidden;
 }
 
 a {
@@ -135,7 +136,7 @@ header {
 }
 
 .pic-contwk {
-  background: url(https://d.newsweek.com/en/full/1555347/newsweek-conversations-paul-wesley.jpg) -50px 0;
+  background: url(https://d.newsweek.com/en/full/1555347/newsweek-conversations-paul-wesley.jpg) 0 0;
   background-size: cover;
   width: 100%;
 }
@@ -184,9 +185,10 @@ header {
 }
 
 .pic-cont-nl {
-  background: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png) -150px 0;
+  background: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png) -80px 0;
   background-size: cover;
   min-height: 300px;
+  margin-left: 30px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -301,6 +303,13 @@ header {
     background-size: cover;
     min-height: 200px;
   }
+
+  .pic-cont-nl {
+    background: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png) -150px 0;
+    background-size: cover;
+    min-height: 300px;
+    margin-left: 0;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -364,5 +373,12 @@ header {
     background: url(https://d.newsweek.com/en/full/1555352/newsweek-conversations-matthew-modine.jpg) -50px 0;
     background-size: cover;
     min-height: 200px;
+  }
+
+  .pic-cont-nl {
+    background: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png) -150px 0;
+    background-size: cover;
+    min-height: 300px;
+    margin-left: 0;
   }
 }
