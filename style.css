@@ -1,0 +1,412 @@
+body {
+  min-width: 320px;
+  max-width: 767px;
+  overflow-x: none;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  text-decoration-color: rgb(233, 3, 91);
+  color: black;
+}
+
+header {
+  background: red;
+  height: 50px;
+}
+
+.logo-nw {
+  width: 120px;
+}
+
+.dropdown-menu {
+  margin-left: -150px;
+  margin-top: 15px;
+}
+
+#subscribe {
+  color: red;
+}
+
+#sign-in,
+#subscribe {
+  font-size: 14px !important;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar1-link {
+  color: black;
+  font-weight: bold;
+  font-size: 19px;
+  box-sizing: border-box;
+  text-align: center !important;
+}
+
+.navbar1-item {
+  border-right: 1px solid lightgray;
+}
+
+#form-s {
+  width: 10% !important;
+  padding-left: 5px;
+}
+
+#navbar-cont {
+  width: 90% !important;
+  margin-bottom: 0 !important;
+}
+
+.autors {
+  width: 63px;
+  height: 63px;
+  box-sizing: border-box;
+}
+
+.pic-mores {
+  width: 135px;
+}
+
+.pic-cont-mores {
+  float: left;
+  width: 135px;
+}
+
+.thumb-art {
+  width: 300px;
+}
+
+.pic-thumb {
+  width: 120px;
+}
+
+.art-link {
+  background: lightgrey;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+.art-link:hover {
+  background: darkgray;
+  color: black;
+  text-decoration: none;
+}
+
+.thumb-art2 {
+  object-fit: cover;
+  object-position: 50% 0;
+  width: 300px;
+}
+
+.art-link2:hover {
+  text-decoration: underline;
+  text-decoration-color: rgb(233, 3, 91);
+}
+
+.art-link3 {
+  background: red;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+.art-link3:hover {
+  background: rgb(173, 0, 0);
+  color: white;
+  text-decoration: none;
+}
+
+.text-black-left,
+.text-black-right {
+  background: black;
+}
+
+.text-black-right {
+  width: 100%;
+}
+
+.pic-contwk {
+  background: url(https://d.newsweek.com/en/full/1555347/newsweek-conversations-paul-wesley.jpg) 0 0;
+  background-size: cover;
+  width: 100%;
+}
+
+.video-link-bg:hover {
+  text-decoration: underline;
+  text-decoration-color: rgb(233, 3, 91);
+}
+
+.pic-link {
+  width: 100%;
+  min-height: 315px;
+  display: block;
+}
+
+.pic-link2 {
+  width: 100%;
+  min-height: 200px;
+  display: block;
+}
+
+.pic-contwk-r1 {
+  background: url(https://d.newsweek.com/en/full/1555350/newsweek-conversations-leslie-grossman.jpg) -150px 0;
+  background-size: cover;
+  min-height: 100px;
+}
+
+.pic-contwk-r2 {
+  background: url(https://d.newsweek.com/en/full/1555351/newsweek-conversations-willem-dafoe.jpg) -50px 0;
+  background-size: cover;
+  min-height: 100px;
+}
+
+.pic-contwk-r3 {
+  background: url(https://d.newsweek.com/en/full/1555352/newsweek-conversations-matthew-modine.jpg) -50px 0;
+  background-size: cover;
+  min-height: 100px;
+}
+
+.thub-mag {
+  width: 35%;
+}
+
+.title-news {
+  margin-left: -15px;
+}
+
+.pic-cont-nl {
+  background: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png) -80px 0;
+  background-size: cover;
+  min-height: 318px;
+  margin-left: 30px;
+}
+
+.logo-bottom {
+  width: 100%;
+}
+
+.text-mark {
+  font-size: 12px;
+}
+
+.list-group-item {
+  padding: 0 5px;
+  height: auto;
+  border-top: 0;
+  border-bottom: 0;
+}
+
+.editions {
+  height: 20px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  body {
+    min-width: 768px;
+    max-width: 991px;
+  }
+
+  .container-fluid {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .news-cont {
+    height: 1100px;
+    overflow: scroll;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .news-cont::-webkit-scrollbar {
+    display: none;
+  }
+
+  .news-cont::-moz-scrollbar {
+    display: none;
+  }
+
+  .pic-contwk {
+    background: url(https://d.newsweek.com/en/full/1555347/newsweek-conversations-paul-wesley.jpg) -440px 0;
+    background-size: cover;
+    width: 50%;
+  }
+
+  .text-black-left {
+    background: black;
+    width: 50%;
+  }
+
+  .pic-contwk-r1 {
+    background: url(https://d.newsweek.com/en/full/1555350/newsweek-conversations-leslie-grossman.jpg) -110px 0;
+    background-size: cover;
+    min-height: 200px;
+  }
+
+  .pic-contwk-r2 {
+    background: url(https://d.newsweek.com/en/full/1555351/newsweek-conversations-willem-dafoe.jpg) -50px 0;
+    background-size: cover;
+    min-height: 200px;
+  }
+
+  .pic-contwk-r3 {
+    background: url(https://d.newsweek.com/en/full/1555352/newsweek-conversations-matthew-modine.jpg) -50px 0;
+    background-size: cover;
+    min-height: 200px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  body {
+    min-width: 992px;
+    max-width: 1199px;
+  }
+
+  .logo-nw-big {
+    width: 420px;
+  }
+
+  header {
+    height: 80px;
+  }
+
+  .container-fluid {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .news-cont {
+    height: 1450px;
+    overflow: scroll;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .news-cont::-webkit-scrollbar {
+    display: none;
+  }
+
+  .news-cont::-moz-scrollbar {
+    display: none;
+  }
+
+  .pic-contwk {
+    background: url(https://d.newsweek.com/en/full/1555347/newsweek-conversations-paul-wesley.jpg) -400px 0;
+    background-size: cover;
+    width: 60%;
+  }
+
+  .text-black-left {
+    background: black;
+    width: 40%;
+  }
+
+  .pic-contwk-r2 {
+    background: url(https://d.newsweek.com/en/full/1555351/newsweek-conversations-willem-dafoe.jpg) -50px 0;
+    background-size: cover;
+    min-height: 200px;
+  }
+
+  .pic-contwk-r3 {
+    background: url(https://d.newsweek.com/en/full/1555352/newsweek-conversations-matthew-modine.jpg) -50px 0;
+    background-size: cover;
+    min-height: 200px;
+  }
+
+  .pic-cont-nl {
+    background: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png) -150px 0;
+    background-size: cover;
+    min-height: 300px;
+    margin-left: 0;
+  }
+
+  .logo-bottom {
+    width: 40%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  body {
+    min-width: 1200px;
+    max-width: 100%;
+  }
+
+  .logo-nw-big {
+    width: 420px;
+  }
+
+  header {
+    height: 80px;
+  }
+
+  .container-fluid {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .news-cont {
+    height: 1050px;
+    overflow: scroll;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .news-cont::-webkit-scrollbar {
+    display: none;
+  }
+
+  .news-cont::-moz-scrollbar {
+    display: none;
+  }
+
+  .pic-contwk {
+    background: url(https://d.newsweek.com/en/full/1555347/newsweek-conversations-paul-wesley.jpg) -250px 0;
+    background-size: cover;
+    width: 60%;
+  }
+
+  .text-black-left {
+    background: black;
+    width: 40%;
+  }
+
+  .pic-contwk-r1 {
+    background: url(https://d.newsweek.com/en/full/1555350/newsweek-conversations-leslie-grossman.jpg) -100px 0;
+    background-size: cover;
+    min-height: 200px;
+  }
+
+  .pic-contwk-r2 {
+    background: url(https://d.newsweek.com/en/full/1555351/newsweek-conversations-willem-dafoe.jpg) -50px 0;
+    background-size: cover;
+    min-height: 200px;
+  }
+
+  .pic-contwk-r3 {
+    background: url(https://d.newsweek.com/en/full/1555352/newsweek-conversations-matthew-modine.jpg) -50px 0;
+    background-size: cover;
+    min-height: 200px;
+  }
+
+  .pic-cont-nl {
+    background: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png) -150px 0;
+    background-size: cover;
+    min-height: 378px;
+    margin-left: 0;
+  }
+
+  .logo-bottom {
+    width: 40%;
+  }
+}
