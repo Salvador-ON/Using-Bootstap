@@ -17,7 +17,7 @@ Using CSS Preprocessors to Save Time replicating the landing page of [NewsWeek](
 
 ## Live Demo
 
-- [Demo](https://rawcdn.githack.com/Salvador-ON/Using-Bootstap/c100ff9c2b0365be8ab59527881ecde5fca71018/index.html)
+- [Demo](https://rawcdn.githack.com/Salvador-ON/Using-Bootstap/f02d3683b2379c8a81062ea26b6df67645945784/index.html)
 
 ## Author
 
