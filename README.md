@@ -1,6 +1,6 @@
 # Using-Bootstrap
 
-> This is the Seventh project of the Microverse Courses.
+> This is the Seventh project of the Microverse HTML Course.
 
 ![screenshot](media/screen-website.jpg)
 
