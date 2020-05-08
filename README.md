@@ -1,4 +1,4 @@
-# Using-Bootstap
+# Using-Bootstrap
 
 > This is the Seventh project of the Microverse Courses.
 
